@@ -1,0 +1,22 @@
+<br>
+<h1>Emplist 3 </h1>
+<table>
+    <table class="table table-bordered">
+    <thead>
+    <tr>
+    <th scope="col">ID</th>
+    <th scope="col">FirstName</th>
+    <th scope="col">Lastname</th>
+    <th scope="col">Email</th>
+    </tr>
+    </thead>
+    
+    <tbody>
+    <tr *ngFor="let data of employeeInfo;">
+    <td>{{data.id}}</td>
+    <td>{{data.firstname}}</td>
+    <td>{{data.lastname}}</td>
+    <td>{{data.email}}</td>
+    </tr>
+    </tbody>
+    </table>
